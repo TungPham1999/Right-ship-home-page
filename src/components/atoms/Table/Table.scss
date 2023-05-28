@@ -1,0 +1,27 @@
+.table_contain {
+  border-collapse: collapse;
+  border-top: 1px solid rgb(202, 122, 122);
+  border-spacing: 0;
+  width: 100%;
+  .table_item_header,
+  .table_item {
+    text-align: left;
+    padding: 8px;
+  }
+  .table_rows {
+    .table_item {
+      cursor: pointer;
+
+      &:first-child {
+        text-decoration: underline;
+      }
+      &:nth-child(2) {
+        min-width: 300px
+      }
+    }
+
+    &:hover {
+      background-color: #f2f2f2;
+    }
+  }
+}

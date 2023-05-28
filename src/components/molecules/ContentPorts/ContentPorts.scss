@@ -1,0 +1,19 @@
+.port_name_wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 1rem;
+  .back_to_port {
+    padding-right: 2rem;
+    font-size: 0.875rem;
+    text-decoration: underline;
+    color: var(--navy-blue);
+    cursor: pointer;
+  }
+  .port_name {
+    display: flex;
+    align-items: baseline; 
+    gap: 0.5rem;
+   }
+}
