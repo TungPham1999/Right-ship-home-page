@@ -19,12 +19,8 @@ we build a fluid layout home page include:
   - Content: contain content of page which has active item
 
 ## Page Structure
-.
-    ├── ...
-    ├── src                     # Source files 
-    │   ├── componentns         # Contain component use in project
-    │   ├── mockData            # Dummy data use in project
-    │   ├── utils               # Function or var use for global project
-    │   └── ...                 # etc.
-    └── ...
+    1. src                     # Source files 
+    2. componentns         # Contain component use in project
+    3. mockData            # Dummy data use in project
+    4. utils               # Function or var use for global project
 
